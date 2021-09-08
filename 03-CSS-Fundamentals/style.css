@@ -121,3 +121,29 @@ a:active {
 }
 
 /* LVHA */
+
+/*Resolving conflicts
+
+5  --- Declarations marked !important
+4  --- Inline style(style attribute in HTML)
+3  --- ID (#) selector --- muliple? --- last
+2  --- Class (.) < pscudo-class(:) --- muliple? --- last
+1  --- Element selector(p,div,li,etc) --- muliple? --- last
+0  --- Universal selector(*)
+*/
+
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+} */
