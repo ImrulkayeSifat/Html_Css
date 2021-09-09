@@ -88,7 +88,7 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 ul,
@@ -199,7 +199,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -270,14 +270,14 @@ nav p {
 
 /* FLOAT */
 
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
 
 .author {
   /* padding-left: 80px; */
-  margin-top: 10px;
+/* margin-top: 10px;
   float: left;
   margin-left: 20px;
 }
@@ -311,4 +311,56 @@ aside {
 
 footer {
   clear: both;
+} */
+
+/* FLEX */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.related-author {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 0 0 825px;
+  margin-bottom: 0;
+}
+aside {
+  flex: 0 0 300px;
 }
