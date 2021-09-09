@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+.container {
+  border: 4px solid black;
+  width: 1000px;
+  margin: 50px auto;
+  position: relative;
+}
+.converse {
+  background-color: rgba(196, 190, 190, 0.219);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+p {
+  margin-top: 5px;
+}
+.free {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+ul {
+  margin-left: 20px;
+}
+li {
+  margin-top: 10px;
+}
+li:last-child {
+  margin-bottom: 10px;
+}
+.more {
+  color: black;
+}
+.more:hover {
+  text-decoration: none;
+}
+.add {
+  font-size: 20px;
+  border: none;
+  background-color: black;
+  border: 4px 0px black;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+  border-top: 4px solid black;
+  width: 100%;
+}
+
+.add:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.sale {
+  background-color: red;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -20px;
+  left: -33px;
+}
+.colors {
+  margin-top: 10px;
+}
+.color {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+
+.color-brown {
+  background-color: brown;
+}
+
+/* FLOAT */
+
+.shoe {
+  float: left;
+}
+.middle {
+  float: left;
+  width: 40%;
+  margin-left: 25px;
+}
+.last {
+  float: right;
+  width: 33%;
+}
+
+.money {
+  float: left;
+  margin-bottom: 20px;
+}
+.free {
+  float: right;
+}
+.clearfix {
+  clear: both;
+}
