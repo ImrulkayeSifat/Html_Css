@@ -104,6 +104,12 @@ footer p {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-image {
+  width: 50%;
+  height: auto;
 }
 
 .post-header {
@@ -118,6 +124,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
 }
 
 li:first-child {
